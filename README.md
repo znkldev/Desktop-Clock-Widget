@@ -15,6 +15,12 @@ How to install:
 ```sh
 pip install -r requirements.txt
 ```
+The requirements.txt file contains a directory. That directory needs to be transferred to the command line.
+```sh
+# Example: If your 'requirements.txt' file is located at 'C:\users\pc\downloads\Desktop-Clock-Widget\'
+cd C:\users\pc\downloads\Desktop-Clock-Widget
+pip install -r requirements.txt
+```
 
 3. Move the `.exe` file from the project folder to the startup folder or create a shortcut.
 
