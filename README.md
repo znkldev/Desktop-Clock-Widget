@@ -1,12 +1,22 @@
 # Desktop Clock Widget
- This code creates a clock and date display using the Tkinter library. The created window remains constantly visible on top of other windows, the window frame is removed to make it transparent, and it displays the time and date information.
+ This project contains a basic clock widget created using Tkinter. This widget can be configured to start up when the system boots in Windows operating systems.
 
-## Usage
+## How to Use
 
-It is used as follows;
+1. Download or clone the project to your computer.
+2. Open a terminal or command prompt and run the following command to install the required libraries:
+
+## Required Libraries
+```tkinter```
+```pywin32```    
+
+How to install:
+
 ```sh
-example
+pip install -r requirements.txt
 ```
+
+    
 
 
 ## License
