@@ -34,12 +34,14 @@ pip install -r requirements.txt
 It will look like this;
 
 ![Screenshot of the Clock Widget](https://lh3.googleusercontent.com/u/2/drive-viewer/AK7aPaD2ZftpyHB4_dkseCVaM60ySNHsnzql12uyKIXIgzd2oXkoAhNQLiKuLkVr-ekpAGbfpUWBKK4bPdDd3FDpjw1mDK433w=w1919-h930)
-   
 
-
-    
+# Download
+[Download Latest Release](https://github.com/znkldev/Desktop-Clock-Widget/releases)
+ 
 
 
 ## License
 
 This project is licensed under the MIT License. For more information, see the [LICENSE file](LICENSE).
+
+**Develooped by ZNKL© 07/12/2023**
