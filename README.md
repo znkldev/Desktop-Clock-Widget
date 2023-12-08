@@ -5,14 +5,19 @@
 [![Github All Releases](https://img.shields.io/github/downloads/znkldev/Desktop-Clock-Widget/total.svg)](https://github.com/QL-znkldev/Desktop-Clock-Widget/releases)
 [![GitHub release](https://img.shields.io/github/release/znkldev/Desktop-Clock-Widget.svg)](https://github.com/znkldev/Desktop-Clock-Widget/releases/latest)
 
-## How to Use
+## Hotkeys and Buttons
+- `Win`+`H` Show/Hide the widget window
+
+
+## Code how to Use
 
 1. Download or clone the project to your computer.
 2. Open a terminal or command prompt and run the following command to install the required libraries:
 
 ## Required Libraries
 - `tkinter`
-- `pywin32` 
+- `pywin32`
+- `keyboard`
 
 How to install:
 
