@@ -1,6 +1,10 @@
 # Desktop Clock Widget
  This project contains a basic clock widget created using Tkinter. This widget can be configured to start up when the system boots in Windows operating systems.
 
+[![license](https://img.shields.io/github/license/QL-Win/QuickLook.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html)
+[![Github All Releases](https://img.shields.io/github/downloads/znkldev/Desktop-Clock-Widget/total.svg)](https://github.com/QL-znkldev/Desktop-Clock-Widget/releases)
+[![GitHub release](https://img.shields.io/github/release/znkldev/Desktop-Clock-Widget.svg)](https://github.com/znkldev/Desktop-Clock-Widget/releases/latest)
+
 ## How to Use
 
 1. Download or clone the project to your computer.
@@ -42,6 +46,10 @@ It will look like this;
 
 ## License
 
-This project is licensed under the MIT License. For more information, see the [LICENSE file](LICENSE).
+![GPL-v3](https://www.gnu.org/graphics/gplv3-127x51.png)
+
+This project is licensed under the [GPL-3.0](https://opensource.org/licenses/GPL-3.0) License. For more information, see the [LICENSE file](LICENSE).
+
+If you want to make any modification on these source codes while keeping new codes not protected by GPL-3.0, please contact me for a sublicense instead.
 
 **Develooped by ZNKL© 07/12/2023**
