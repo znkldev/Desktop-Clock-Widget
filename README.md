@@ -33,6 +33,11 @@ pip install -r requirements.txt
 
 3. Move the `.exe` file from the project folder to the startup folder or create a shortcut.
 
+>⚠️ WARNING: Montserrat font has been used for the clock. If this font is not installed on your computer, it may be displayed in a different font.
+
+**Font download link:** https://fonts.google.com/specimen/Montserrat
+
+
 ## Startup Configuration
 
 1. Right-click in the project folder to create a shortcut for the `.exe` file. (Or you can move the `exe` file directly.)
@@ -53,7 +58,7 @@ It will look like this;
 
 ![GPL-v3](https://www.gnu.org/graphics/gplv3-127x51.png)
 
-This project is licensed under the [GPL-3.0](https://opensource.org/licenses/GPL-3.0) License. For more information, see the [LICENSE file](LICENSE).
+This project is licensed under the [GPL-3.0](https://opensource.org/licenses/GPL-3.0) License. For more information, see the [LICENSE file](LICENSE-GPL).
 
 If you want to make any modification on these source codes while keeping new codes not protected by GPL-3.0, please contact me for a sublicense instead.
 
