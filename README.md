@@ -7,6 +7,9 @@
 
 ## Hotkeys and Buttons
 - `Win`+`H` Show/Hide the widget window
+- `Alt`+`M` Change the clock mode
+- `Alt`+`0` Reset chronometer
+- `Alt`+`1` Start chronometer
 
 
 ## Code how to Use
