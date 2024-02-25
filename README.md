@@ -52,7 +52,14 @@ pip install -r requirements.txt
 ## Screen Capture
 It will look like this;
 
-![Screenshot of the Clock Widget](https://lh3.googleusercontent.com/u/2/drive-viewer/AK7aPaD2ZftpyHB4_dkseCVaM60ySNHsnzql12uyKIXIgzd2oXkoAhNQLiKuLkVr-ekpAGbfpUWBKK4bPdDd3FDpjw1mDK433w=w1919-h930)
+Clock:
+
+![Screenshot of the Clock Widget](https://res.cloudinary.com/dqrjy97s9/image/upload/v1708883867/lhrxixc6iqc4xnlxjcxb.png)
+
+Chronometer:
+
+![Screenshot of the Clock Widget](https://res.cloudinary.com/dqrjy97s9/image/upload/v1708884647/hi3lte7tnxz1fupszcdh.png)
+
 
 # Download
 [Download Latest Release](https://github.com/znkldev/Desktop-Clock-Widget/releases)
