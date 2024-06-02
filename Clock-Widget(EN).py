@@ -1,6 +1,7 @@
 from tkinter import *
 from time import strftime
 import keyboard
+import ctypes
 
 # Create a Tkinter window
 root = Tk()
@@ -18,10 +19,7 @@ root.overrideredirect(True)
 root.configure(background="black")
 root.resizable(0, 0)
 root.wm_attributes('-topmost', True)
-root.grab_set()
-root.lift()
 root.attributes("-toolwindow", 1)
-root.attributes("-alpha", 0.50)
 
 # Default font for the clock label
 default_font = ("Montserrat", 23, "bold")
@@ -48,11 +46,9 @@ is_stopwatch_mode = False
 def update_time():
     global stopwatch_seconds, is_blinking, is_stopwatch_mode
     if is_clock_mode:
-        # Update clock and date information
+        # Update clock information
         time_str = strftime("%H:%M")
-        date_str = strftime("%d/%m/%Y")
         clock_label.config(text=time_str)
-        date_label.config(text=date_str)
     else:
         if is_running:
             # If in stopwatch mode, update the time
@@ -70,6 +66,13 @@ def update_time():
                     clock_label.config(text="00:00")
     # Update every second
     root.after(1000, update_time)
+
+# Function to update date
+def update_date():
+    date_str = strftime("%d/%m/%Y")
+    date_label.config(text=date_str)
+    # Update date every hour
+    root.after(3600000, update_date)
 
 # Function to format seconds (minute:second)
 def format_seconds(seconds):
@@ -128,8 +131,25 @@ keyboard.add_hotkey('alt+0', reset_and_blink)
 keyboard.add_hotkey('alt+1', start_stopwatch)
 keyboard.add_hotkey('win+h', toggle_window_visibility)
 
-# Call the function to update the time
+# Function to make window click-through and set opacity
+def make_click_through(window_id, opacity):
+    GWL_EXSTYLE = -20
+    WS_EX_LAYERED = 0x80000
+    WS_EX_TRANSPARENT = 0x20
+    current_style = ctypes.windll.user32.GetWindowLongW(window_id, GWL_EXSTYLE)
+    new_style = current_style | WS_EX_LAYERED | WS_EX_TRANSPARENT
+    ctypes.windll.user32.SetWindowLongW(window_id, GWL_EXSTYLE, new_style)
+    ctypes.windll.user32.SetLayeredWindowAttributes(window_id, 0, opacity, 0x2)
+
+# Call the function to make the window click-through and set opacity
+root.update_idletasks()  # Update window id
+window_id = int(root.frame(), 16)  # Get window id
+opacity_value = 130  # Set opacity value (0 to 255, where 255 is fully opaque)
+make_click_through(window_id, opacity_value)  # Make window click-through and set opacity
+
+# Call the functions to update the time and date
 update_time()
+update_date()
 
 # Run the Tkinter window
 root.mainloop()
