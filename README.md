@@ -23,6 +23,8 @@
 - `tkinter`
 - `pywin32`
 - `keyboard`
+- `ctypes`
+  
 
 How to install:
 
