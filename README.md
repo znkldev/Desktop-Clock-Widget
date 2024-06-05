@@ -40,10 +40,13 @@ pip install -r requirements.txt
 
 3. Move the `.exe` file from the project folder to the startup folder or create a shortcut.
 
->⚠️ WARNING: Montserrat font has been used for the clock. If this font is not installed on your computer, it may be displayed in a different font.
+>⚠️ WARNING: Montserrat and DS-DIGITAL font has been used for the clock. If this font is not installed on your computer, it may be displayed in a different font.
 
-**Font download link:** https://fonts.google.com/specimen/Montserrat
+**Fonts download link:** 
 
+https://fonts.google.com/specimen/Montserrat
+
+https://fontmeme.com/fonts/ds-digital-font/
 
 ## Startup Configuration
 
