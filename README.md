@@ -2,7 +2,7 @@
  This project contains a basic clock widget created using Tkinter. This widget can be configured to start up when the system boots in Windows operating systems.
 
 [![license](https://img.shields.io/github/license/QL-Win/QuickLook.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html)
-[![Github All Releases](https://img.shields.io/github/downloads/znkldev/Desktop-Clock-Widget/total.svg)](https://github.com/QL-znkldev/Desktop-Clock-Widget/releases)
+[![Github All Releases](https://img.shields.io/github/downloads/znkldev/Desktop-Clock-Widget/total.svg)](https://github.com/znkldev/Desktop-Clock-Widget/releases)
 [![GitHub release](https://img.shields.io/github/release/znkldev/Desktop-Clock-Widget.svg)](https://github.com/znkldev/Desktop-Clock-Widget/releases/latest)
 
 ## Hotkeys and Buttons
