@@ -40,8 +40,6 @@ pip install -r requirements.txt
 
 3. Move the `.exe` file from the project folder to the startup folder or create a shortcut.
 
->[!Warning]
->Montserrat and DS-DIGITAL font has been used for the clock. If this font is not installed on your computer, it may be displayed in a different font.
 
 >[!important] 
 >**Fonts download link:** 
@@ -61,12 +59,15 @@ It will look like this;
 
 Clock:
 
+
 ![Screenshot of the Clock Widget](https://res.cloudinary.com/dqrjy97s9/image/upload/v1708883867/lhrxixc6iqc4xnlxjcxb.png)
 
 Chronometer:
 
 ![Screenshot of the Clock Widget](https://res.cloudinary.com/dqrjy97s9/image/upload/v1708884647/hi3lte7tnxz1fupszcdh.png)
 
+>[!Warning]
+>Montserrat and DS-DIGITAL font has been used for the clock. If this font is not installed on your computer, it may be displayed in a different font.
 
 # Download
 [Download Latest Release](https://github.com/znkldev/Desktop-Clock-Widget/releases)
